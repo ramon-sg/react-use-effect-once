@@ -8,10 +8,10 @@ import { StoreContext } from './context';
  *
  * @Example
  * ```ts
- * import { useEffectOnce } from 'react-use-effect-once';
+ * import { useForgetAllEffects } from 'react-use-effect-once';
  *
  * export const useLogin = () => {
- *  const forgetAll = useForgetAll()
+ *  const forgetAll = useForgetAllEffects()
  *
  *  const handleSuccess = () => {
  *    forgetAll(); // <-- forget all

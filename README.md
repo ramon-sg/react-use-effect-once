@@ -81,7 +81,7 @@ export const useForgetAllEffects = (): void => {...}
 #### Example
 
 ```ts
-import { useEffectOnce } from 'react-use-effect-once';
+import { useForgetAllEffects } from 'react-use-effect-once';
 
 export const useLogin = () => {
   const forgetAll = useForgetAllEffects();
