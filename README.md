@@ -1,5 +1,7 @@
 # `useEffectOnce`
 
+[![NPM](https://nodei.co/npm/react-use-effect-once.png?mini=true)](https://www.npmjs.com/package/react-use-effect-once)
+
 `useEffectOnce` is a wrapper for `useEffect` that performs the effect only once, unlike other options it uses `useContext` and does not use `useRef`.
 
 It also provides two hooks `useForgetEffect` and `useForgetAllEffects`.
